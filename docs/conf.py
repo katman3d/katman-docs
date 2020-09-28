@@ -16,8 +16,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'katman'
-copyright = '2020, korhanmd'
+project = 'Katman'
+copyright = '2020, Ne-Ka Elektronik'
 author = 'korhanmd'
 
 # The full version, including alpha/beta/rc tags
