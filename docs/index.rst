@@ -17,18 +17,11 @@ Hoşgeldiniz
    :width: 5000
    :alt: Katman
 
-..
- Indices and tables
- ==================
 
- * :ref:`genindex`
- * :ref:`modindex`
- * :ref:`search`
-..
- Ürünler
- =======
+Katman [*]_, üç boyutlu yazıcılar ve onların elektroniğini yerli olarak üretmektedir. 
+Makinelerimizdeki elektronik bileşenler kendi üretimimizdir.
+Ürünlerimizi görmek için `tıklayınız <urunler.html>`__.
 
-..
-  Ürünler için :ref:`tıklayınız. <urunler.rst>`
+Daha fazla bilgi almak için: info@katman3d.com
 
- here is a pdf file :download:`pdf <lcd_kart.pdf>`
+.. [*] Katman, bir Ne-Ka Elektronik markasıdır.
