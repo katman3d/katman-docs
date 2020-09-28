@@ -2,5 +2,3 @@ Makefile
 make.bat
 template-master*
 docs/_*
-docs/make.bat
-docs/Makefile
