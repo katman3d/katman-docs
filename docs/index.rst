@@ -4,21 +4,31 @@
    contain the root `toctree` directive.
 
 Hoşgeldiniz
-==================================
+===========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :glob:
+   :maxdepth: 4
+   :hidden:
 
+   urunler
 
 .. image:: katman.png
    :width: 5000
    :alt: Katman
 
+..
+ Indices and tables
+ ==================
 
-Indices and tables
-==================
+ * :ref:`genindex`
+ * :ref:`modindex`
+ * :ref:`search`
+..
+ Ürünler
+ =======
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+..
+  Ürünler için :ref:`tıklayınız. <urunler.rst>`
+
+ here is a pdf file :download:`pdf <lcd_kart.pdf>`
