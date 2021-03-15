@@ -1,4 +1,4 @@
-Ürünlerasdff
+Sorun giderme
 =======
 
 Mevcut ürünlerimiz:
@@ -7,6 +7,6 @@ Mevcut ürünlerimiz:
    :glob:
    :maxdepth: 4
 
-   kontrol
-   arayuz
-   switch
+   baskikalkma
+   filamentdegistirme
+   nozzledegistirme
