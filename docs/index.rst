@@ -12,6 +12,7 @@ Hoşgeldiniz
    :hidden:
 
    urunler
+   sorungiderme
 
 .. image:: katman.png
    :width: 5000
