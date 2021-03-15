@@ -1,4 +1,4 @@
-Nozzle Değiştirme
+Tabla Sorunları
 =====================
 
 .. toctree::

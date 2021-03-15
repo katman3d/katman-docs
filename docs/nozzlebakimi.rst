@@ -1,4 +1,4 @@
-Filament Değiştirme
+Nozzle Bakımı
 =====================
 
 .. toctree::

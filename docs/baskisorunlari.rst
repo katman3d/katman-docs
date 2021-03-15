@@ -1,4 +1,4 @@
-Baskı Kalkma
+Baskı Sorunları
 =====================
 
 .. toctree::

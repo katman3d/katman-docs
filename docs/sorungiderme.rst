@@ -1,12 +1,13 @@
 Sorun giderme
 =======
 
-Mevcut ürünlerimiz:
+Katman ürünlerinde hata giderme:
 
 .. toctree::
    :glob:
    :maxdepth: 4
 
-   baskikalkma
-   filamentdegistirme
-   nozzledegistirme
+   extrudersorunlari
+   tablasorunlari
+   baskisorunlari
+   malzemesorunlari
