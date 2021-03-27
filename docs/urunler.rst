@@ -7,6 +7,7 @@ Mevcut ürünlerimiz:
    :glob:
    :maxdepth: 4
 
-   kontrol
+   kontrol32
+   kontrol8
    arayuz
    switch
