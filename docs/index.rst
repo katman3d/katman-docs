@@ -15,7 +15,6 @@ Hoşgeldiniz
    sorungiderme
 
 .. image:: katman.png
-   :width: 5000
    :alt: Katman
 
 
