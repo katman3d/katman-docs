@@ -1,4 +1,4 @@
-Baskı Sorunları
+Katman Limit Anahtarı
 =====================
 
 .. toctree::

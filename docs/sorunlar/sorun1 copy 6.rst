@@ -1,4 +1,4 @@
-Soğutma Sorunları
+Katman Limit Anahtarı
 =====================
 
 .. toctree::

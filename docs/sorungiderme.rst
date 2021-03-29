@@ -7,7 +7,4 @@ Katman ürünlerinde hata giderme:
    :glob:
    :maxdepth: 4
 
-   extrudersorunlari
-   tablasorunlari
-   baskisorunlari
-   malzemesorunlari
+   sorunlar/*

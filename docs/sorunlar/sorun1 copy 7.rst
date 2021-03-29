@@ -1,4 +1,4 @@
-Nozzle Tıkanma
+Katman Limit Anahtarı
 =====================
 
 .. toctree::

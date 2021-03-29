@@ -1,4 +1,4 @@
-Nozzle Bakımı
+Katman Limit Anahtarı
 =====================
 
 .. toctree::
