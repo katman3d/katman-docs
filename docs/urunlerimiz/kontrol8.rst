@@ -1,4 +1,4 @@
-Katman Kontrol8😳
+Katman Kontrol8
 ======================================
 
 .. toctree::
@@ -8,4 +8,4 @@ Katman Kontrol8😳
 Yerli üretim Katman Kontrol Kartı ile hobi için yapacağınız makinalara hayat verebilirsiniz. 
 DRV8825 motor sürücüleriyle birlikte gelen tümleşik yapısı sayesinde ek genişletme kartlarına ihtiyaç duymaz.
 RAMPS uyumlu Katman Kontrol Kartı\'nı *PİN AYARLAMA REHBERİ* ile RAMPS uyumlu tüm yazılımlarla kullanabilirsiniz.
-Bilgi kitapçığı için :download:`tıklayınız <KatmanKontrolsekiz.pdf>`.
+Bilgi kitapçığı için :download:`tıklayınız <Katman Kontrol Sekiz.pdf>`.
