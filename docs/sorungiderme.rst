@@ -1,4 +1,4 @@
-Sorun giderme
+3D Baskı Sorun Giderme kılavuzu
 =======
 
 Katman ürünlerinde hata giderme:
