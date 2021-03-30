@@ -268,17 +268,36 @@ Baskı köşeleri kalkıyor
 
 İç dolgu ile duvarlar arasında boşluklar
 ========================================
+.. image:: images/icdolguveduvarbosluk.jpg
+   :alt: Katman
+
 🤨 Sorun nedir?
 ----------------- 
+ Baskınızın altına veya üstüne baktığınızda dolgu ve çevre duvarlar arasında küçük boşluklar görebiliyorsunuz.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
+ Çevre duvar ile üst katmanlar arasında boşluklar eskiden sıkça rastlanan bir sorundu ama yazıcıların doğruluğu yükseldikçe ve çeşitli materyaller için destek veren yazıcılar yaygınlaştıkça bu sorunun sıklığı azaldı.
+
+ Piyasaya yeni girmekte olan gelişmiş materyaller PLA ve ABS çok daha tahammülsüz olduklarından problemin az da olsa yeniden oluştuğunu görüyoruz.
+
+ Boşluklar, dolgu ve dış duvarlar için kullanılan filamentin buluşmaması ve yapışmaması sebebiyle oluşur. Neyse ki boşluklar, listemizde çözülmesi en kolay sorunlardan biridir.
+
+ Bu durumun en belirgin sebebi dolgu bindirmesinin (infill overlap) ayarlı olmaması veya 0’da olmasıdır.  Bu da demek olur ki dilimleme yazılımı yazıcıya esasında iki parçanın buluşmaması gerektiğine dair komut vermektedir.
+
+ Diğer bir sorun da dolgu ve dış duvarların basım sırası olabilir. Çevreyi dolgudan önce basıyorsanız bindirme ya yoktur ya da çok küçüktür, bu da tekrar soruna neden olabilir.
 
 ✅ Çözüm önerisi
---------------
- •
- •
+-----------------
+ •Dolgu Bindirmesi Ayarlarını Gözden Geçirin;
 
+  Bu, şu ana kadar en yaygın sorundur ve çözülmesi gerçekten kolaydır. Dilimleme yazılımınızda “Infill Overlap” seçeneğini bulun ve değeri arttırın.
+ •Dolguyu Çevre Kabuğundan (Perimeter Shell) Önce Basın;
+
+    Eğer siz baskınızı görece ince bir dış duvarla gerçekleştiriyorsanız dolgu duvar arasından görünebilir. Bu durum oluşuyorsa duvarın ve dolgunun baskı sırasını değiştirebilirsiniz. Örneğin, Cura’da “Baskıları Çevreden Sonra Doldur – Infill prints after perimeters” seçeneğini tıklayıp tıklamadığınızı kontrol edin.
+ •Basım Hızını Azaltın;
+
+    Tamam, siz belki baskıyı olabildiğince çabuk almak istiyor olabilirsiniz ama daha yüksek hızlarda baskı, yazıcı mükemmel derecede ayarlı değilse, her türlü soruna sebebiyet verebilir. Baskınızı hızlıca oluşturmanız gerekiyorsa en üst katmanın basım hızını azaltarak boşlukların ortaya çıkmasını engelleyebilirsiniz.
 
 
 Katmanlar kayıyor
@@ -290,6 +309,6 @@ Katmanlar kayıyor
 -------------------------------
 
 ✅ Çözüm önerisi
---------------
+----------------
  •
  •
