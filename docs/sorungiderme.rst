@@ -1,8 +1,10 @@
 3D Baskı Sorun Giderme kılavuzu
 =======
-
-Katman ürünlerinde hata giderme:,
 .. raw:: html
+
+Katman ürünlerinde hata giderme:
+
+
  <iframe width="560" height="315" src="deneme.html"></iframe>
 
 .. toctree::
