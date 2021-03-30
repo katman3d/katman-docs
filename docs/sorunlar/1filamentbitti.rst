@@ -336,3 +336,39 @@ Katmanlar kayıyor
 
   Yazıcı kayışları, genellikle iki makara arasına gerdirilmiş bir kasnaktır. Karşılaşılan yaygın bir sıkıntı, gergi kayışının makaraların bir tanesi üzerinden kayıp gerginliğini kaybetmesi ve öbür makara tarafında aksine sıkışmaya başlamasıdır. Bu da hizalanmamış katmanlara sebep olur.
  
+ Katmanlar kayıyor
+===================
+.. image:: images/katmankayması.jpg
+   :alt: Katman
+
+🤨 Sorun nedir?
+----------------- 
+ Baskı devam ettikçe kalite açısından pek sorun yokmuş gibi duruyor. Biraz daha yakından bakıyorsunuz ve katmanların olması gerektiği gibi hizalanmadığını görüyorsunuz. İçteki destek yapısına bakıyorsunuz ve hizanın biraz kaydığını görüyorsunuz. Dış duvar, düzgün gözükmek yerine küçük uyumsuzluklara sahip ve düzensiz ön yüz izlenimi oluşturuyor. Yüksek olasılıkla sorun, baskının yalnızca bir doğrultusunda oluşuyor; örneğin sağ-sol ya da ileri-geri.
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+ 3D yazıcınızın parçaları; örnek vermek gerekirse somunlar, cıvatalar ve kayışlar; zamanla gevşeyecek ve bunların sıkılması gerekecektir. Yanlış hizalanmış katmanların etkisi, kayan katmanlara oranla daha az bellidir ama bunların sebepleri benzerdir. Bu sorun giderilmezse zamanla hizalanmamış katmanlar, bunlar en başta ne kadar az belli olmuş olsa da kaymış katmanlara dönüşecektir. Sorunun  kaynağı çoğunlukla gevşek kayıştır.
+
+✅ Çözüm önerisi
+----------------
+ •Kasnakları Kontrol Et;
+
+  Bunlar, çoğunlukla bir kademe motoruna ya da basım başını ilerleten ana rodlardan birine bağlıdır. Makarayı dikkatli bir şekilde döndürürseniz onun içinde küçük bir saplama vidası görürsünüz. Hem rodu hem de bağlı olduğu kayışı çekin ve kasnağı döndürün. Böyle yaptığınızda kasnak, kademe motoru veya rodlarda herhangi bir kayma olmaması gerekir. Sorun devam ediyorsa saplama vidasını biraz daha sıkın ve yeniden deneyin.
+ •Bükülmüş veya Hizasız Çubukları Kontrol Et;
+
+    Basım başının belirli bölgelerde yalpaladığını görüyorsanız bunun sebebi, çubukların(rodların) bir tanesinin bükülmesi olabilir. Bundan emin olmak için yazıcınızı kapatabilir ve basım başını X-Y eksenleri doğrultusunda hareket ettirebilirsiniz.
+
+    Hareket sırasında dirençle karşılaşıyorsanız bir sıkıntı olduğunu anlayabilirsiniz. Öncelikle rodların hizalı olup olmadığına bakınız. Eğer hizalılarsa onları yerlerinden sökün ve yatay bir yüzeyde yuvarlayın. Rodlardan biri bükükse bükülme belirgin bir şekilde, rodlar yüzeyde yuvarlanırken fark edilir.
+
+    Çoğu yazıcı, ilerletme vidası (leadscrew) yerine dişli çubuklar (threaded rods) kullanır ve bunlar görevlerini başarıyla yerine getirebilmektedir ancak zamanla bükülmeye eğilimli olurlar. Rodların düz olup olmadığından emin olmak adına yazıcıyı parçalara ayırmanıza gerek yok, tek yapmanız gereken, başı yukarı veya aşağı hareket ettirmek için Printrun gibi bir kontrol yazılımı kullanmaktır. Z ekseni rodlarından herhangi biri bükükse bunu hemen fark edebilirsiniz. Bir rod büküldükten sonra onu geri düzleştirmek maalesef neredeyse imkânsızdır ama bu durum, dişli rodunuzu bir ilerletme vidasıyla değiştirmek için güzel bir bahane olabilir.
+ •Çubukların Temiz ve Yağlanmış Olduğundan Emin Olun;
+
+    Çubukların (rod) üzerinde zamanla toz ve artıklar birikebilir, bunlar da çubuklar üzerinde düzensiz yüksek sürtünmeli bölgelerin oluşumuna sebep olur. Hızlı bir silme ve yağlama işlemi, sorunu ekseriyetle çözer.
+ •Kayışları kontrol et;
+
+  Her bir kayışın sıkı olup olmadığını kontrol edin. kayışların çok sıkı olmaması gerekir. kayışın iki tarafını çektiğinizde parmaklarınız az miktarda bir dirençle karşılaşmalıdır. Eğer üstteki kayışın alttaki kayıştan daha sıkı olduğunu fark ederseniz bu durum kayışların çekilip sıkıştırılması gerektiğine dair bir işarettir.
+
+  Original Prusa i3 gibi bazı yazıcılar kayış gergi sistemine sahiptirler. Diğer yazıcılar için kayış gergi sistemi, 3D yazıcıdan baskı şeklinde alınabilir. Eğer bunlardan hiçbiri size uymuyorsa o zaman kayışları elle çekmeniz gerekir.
+
+  Yazıcı kayışları, genellikle iki makara arasına gerdirilmiş bir kasnaktır. Karşılaşılan yaygın bir sıkıntı, gergi kayışının makaraların bir tanesi üzerinden kayıp gerginliğini kaybetmesi ve öbür makara tarafında aksine sıkışmaya başlamasıdır. Bu da hizalanmamış katmanlara sebep olur.
+ 
