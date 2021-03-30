@@ -82,6 +82,7 @@ Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıkl
   Baskı ucu temizlendiğinde iğneyi, filamentten kalan parçaları temizlemek için tekrar uca yerleştirin ve birkaç defa sokup çıkarın.
 
 •Sıcak Ucu Parçalayın ve Tekrar Toplayın;
+
   Ucun hâlen tıkalı kaldığı fevkalade durumlarda küçük bir ameliyat gerçekleştirmeniz ve sıcak ucu parçalamanız gerekecek. Bunu daha önce yapmadıysanız notlar almak ve ucun fotoğraflarını çeşitli açılardan çekmek, ucu yeniden toplayacağınız zaman her şeyi doğru yaptığınızdan emin olmanıza yardımcı olacaktır. Öncelikle filamenti çıkarmakla başlayın, daha sonra yazıcınızın kullanım kılavuzundan sıcak ucu parçalara nasıl ayırabileceğinizi inceleyin.
 
 •Atomic Pull Yöntemi;
