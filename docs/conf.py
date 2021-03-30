@@ -63,6 +63,7 @@ html_static_path = ['_static']
 
 html_theme_options = {
     'style_nav_header_background': '#007678',
+    'logo_only': True,
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
