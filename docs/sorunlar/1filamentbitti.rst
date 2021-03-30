@@ -96,20 +96,31 @@ Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıkl
 
 Filament ezilmesi
 ==================
-.. image:: images/nozzletıkandi.jpg
+.. image:: images/filamentezilmesi.jpg
    :alt: Katman
+
 🤨 Sorun nedir?
 ----------------- 
+Filamentin ezilmesi yahut yalama yapması, baskı işleminin herhangi bir anında ve her filamentle gerçekleşebilir. Bunun sonucunda filament sıcak uçtan hiç püskürtülmez ve baskınız aniden sonlanır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
+Tıkanma, gergi grubunun(idler tensioner) gevşek olması, hatalı sıcak uç sıcaklığı; bütün bunlar yaygın sebeplerden sadece birkaçıdır ancak bunların düzeltilmesi çoğunlukla kolaydır. Sorunun sonucunda ekstruderdaki dişli çark, filamenti yazıcının içinden çekemez ya da itemez hâle gelir. Motor döndükçe çarkın üzerindeki küçük dişlerin normalde filamenti yakalaması ve sisteme beslemesi gerekirken bunlar aşınır ve hiç tutunma olmaz, bundan dolayı hem filament hem de çarklar tutanamaz ve birbirlerinin üstünden kayarlar.
 
 ✅ Çözüm önerisi
 --------------
- •
- •
+•Sistemin Beslenmesine Yardım Edin;
 
+  Filament eğer yeni kaymaya başladıysa bunu filamentin üzerindeki küçük talaşlardan ve açığa çıkan sesten anlayabilirsiniz. Filamentin sisteme beslenmesine yardım etmek için hafifçe baskı uygulayın. Bu yöntem çoğu durumda makinenin tekrar düzgün bir şekilde çalışmasını sağlar.
+•Gergi Grubu (Idler tensioner) Gerilmesini Ayarlayın;
 
+  Gergi grubunu gevşetmekle başlayın, filamenti sisteme yükleyin ve filament yerleştikten sonra gergi grubunu filament sabitleninceye kadar gerin. Filamentlerin çapı farklıdır, gergi grubu bir miktar farklılığa dayanıklı olsa da bazı filamentlerin ince ayara ihtiyacı olacaktır.
+•Filamenti Kaldırın;
+
+  Çoğu vakada filamenti kaldırmanız ve değiştirmeniz, ardından sisteme tekrar beslemeniz gerekecektir. Filamenti kaldırdığınızda kayma belirtisi gösteren yerin altından kesin. Filamentin kırılmış olması, artık onun kullanılamaz olduğuna işaret ediyor olabilir. Bunu tekrar deneyin ve eğer durum tekrar ediyorsa filamentin zamanı dolmuştur, onu atabilirsiniz.
+•Sıcak Uç Sıcaklığını Kontrol Edin;
+
+ Sorun başladığında siz yeni bir filament yerleştirdiyseniz sıcak ucun sıcaklık değerinin doğru olup olmadığını çifte kontrol edin.
 
 Baskı sırasında filament gelmiyor
 ==================================
