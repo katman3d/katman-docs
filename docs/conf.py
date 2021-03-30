@@ -62,7 +62,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_theme_options = {
-    'style_nav_header_background': 'CadetBlue',
+    'style_nav_header_background': '#007678',
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
