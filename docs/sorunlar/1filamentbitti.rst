@@ -9,6 +9,9 @@ katman switchlerinden alın
 
 Filament Bitti
 ====================
+.. image:: images/filamentbitti.jpg
+   :alt: Katman
+
 Dilimleme yazılımında model belirlenmesine ve doğru şekilde yapılandırılmasına rağmen hiçbir şey basılmıyor. Ne kadar baskı dosyasını yazıcıya defalarca göndermeyi deniyor olsan da baskı ucundan garip bir parça çıkması dışında hiçbir şey gerçekleşmiyor ya da diğer türlü, baskının yarısı tamamlandıktan sonra filament ekstrüzyonu duruyor ama basım ucu modelin içine hava üflemeye devam ediyor.
 
 
