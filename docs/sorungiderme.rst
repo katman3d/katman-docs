@@ -6,6 +6,6 @@ Katman ürünlerinde hata giderme:
 .. toctree::
    :glob:
    :maxdepth: 4
-   :hidden:
+   :titlesonly:
 
    sorunlar/*
