@@ -158,13 +158,39 @@ Baskı tablaya yapışmıyor
 🤨 Sorun nedir?
 ----------------- 
 
+Baskının, basım yatağına yapışamaması sebebiyle kaybedilmesi yaygın bir sorundur ve çözülmesi nispeten kolaydır. Ne yazık ki 3D baskı herhangi bir anda serbest kalabilir. Bu durum daha ilk katmanda ya da aksine en son katmanda gerçekleşebilir, en sonda gerçekleşmesiyse özellikle sinir bozucudur.
+
+Bu her zaman yazıcının suçu değildir ve eğer siz, basım yatağıyla temas yüzeyi düşük bir modeli basmayı denediyseniz sorun yüksek ihtimalle bu yüzdendir. Şöyle düşünün: Bir uçağın 3D baskısını yapmayı çalıştınız ancak basım yatağıyla tek temas yüzeyi iniş takımlarıdır. Bundan dolayı baskınızın bir raft veya kenarlık (brim) olmadan düzgün basılma ihtimali pek düşük olacaktır, burada desteklerden (support) bahsetmiyoruz bile. Şansımıza bu durum çok yaygın olduğundan onu kolayca düzeltme yolları da fazladır.
+
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
+Bu sorunun en yaygın sebebi, baskının yüzeye ya da basım platformuna tutunamamasıdır. Filamentin tutunması için pürüzlü bir tabana oturması gereklidir, bu sebeple daha iyi bir yapışma yüzeyi yaratmanıza ihtiyaç olacaktır.
+
+Düz olmayan bir basım platformu, diğer bir önemli sorun olabilir. Platform, baskının herhangi bir bölümünde düzgün olmamışsa baskı ucu, düzgün ekstrüzyon ve yapışma sağlayamayacak kadar platforma uzak kalabilir.
+
+Kalibrasyon da önemli sorunlardan biri olabilir, zamanla platform ve baskı ucu arasındaki mesafe gitgide artabilir ve en sonunda baş katman platformun içine itilmek yerine rastgele sürüklenmeye başlar.
+
+Her durumda; yarısı bitmiş modelinizin üstünde bir filament spagettisi, tüm modelinizin bir spagetti hâline geldiğini ya da modelinizin her bir parçasının platformun üstünde rastgele basılmış olduğunu görmeniz olasıdır.
 
 ✅ Çözüm önerisi
 --------------
- •
- •
+•Pürüzleri Arttırın;
+
+ Filamentinizin platforma tutunma şansını arttırmanız adına platformun üzerine pürüzlü bir materyal koymanız gerekir. Kullanılan en yaygın çözüm, platformun üstüne, sıcak suyla kolaylıkla yıkanabilen bir yapıştırıcı katmanı eklemektir. PLA için başka bir alternatif, boya maske bandı kullanmaktır. 40°C sıcaklığın üstünde erime noktasına sahip filamentler için şimdilerde, sıcağa biraz daha dayanıklı özel bantlar bulunur.
+•Basım Yatağını Seviyelendirin;
+
+  Eski, yanık filamentle dolmuş  bir baskı ucu çok da farklı sonuçlara yol açmayacaktır. Bunlardan bir tanesi ekstrüzyonun durmuş olmasıdır. Tıkalı baskı uçlarının halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
+•Baskı Ucunu Ayarlayın;
+
+ Sorun başladığında siz yeni bir filament yerleştirdiyseniz sıcak ucun sıcaklık değerinin doğru olup olmadığını çifte kontrol edin.
+•Basım Platformunu Temizleyin;
+
+ Bowden tipi ekstrudera sahip çoğu yazıcının boğuştuğu sorun olan kırılan filament, ekstruder ile sıcak uç arasında bir temassızlığa sebep olabilir. Şükürler olsun ki bunun tespiti ve düzeltilmesi kolaydır; yine de böyle bir durumun meydana gelmiş olması, filamentin son kullanma tarihini geçtiğine işaret eder. Kırılan filament sorununun halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
+•Baskı Platformu Adezyonu Uygulayın;
+
+ Biraz bariz bir durum ama hepimizin odaklanmasında ani düşüşler yaşanabilir. Günümüzde çoğu dilimleme (slicing) yazılımı, baskılar için kullanılacak tahmini materyali hesaplar; dolayısıyla yazılımınızın verdiği bu tahmin ve makaranın geriye kalan ağırlığıyla yapacağınız ufak bir karşılaştırma, materyalin yetip yetmeyeceğine dair ipucu verecektir.•Gergi Grubu (Idler tensioner) Gerilmesini Ayarlayın;
+•Destekler (Support) Ekleyin;
+
 
 
 
