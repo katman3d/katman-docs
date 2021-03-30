@@ -38,7 +38,6 @@ Açıklanmaz bir şekilde, filamenti doldurmuş olmaya ve basım başının sık
 
    Bu sorun neden kaynaklanır?
 -------------------------------
-
 Sorun, gayet basit bir şekilde oluşabilir: basım ucunuz basım yatağına çok yakındır. Eğer olur da basım yatağınızı uçtan sadece birkaç mikron yukarı yerleştirdiyseniz erimiş filamentin dışarı çıkması olanaksız hâle gelir. Bunun sonucunda olacak en iyi şey, baskınızın ilk katlarının hiç basılmaması ve daha sonraki katların yapışmama olasılığının artmasıdır. En kötüsü ise erimiş filamentin basım ucunuzda birikmesi, dolayısıyla ucun tamamen tıkanması olabilir.
    Çözüm önerisi
 --------------
@@ -47,6 +46,7 @@ Basım ucunun yüksekliğini biraz arttırmak bile genellikle işe yarar. Çoğu
 
 -Basım yatağını alçaltın;
 Bunun yanı sıra yazıcınız müsaade ediyorsa aynı etkiyi basım yatağını alçaltarak da elde edebilirsiniz ancak bu çözüm daha karmaşıktır çünkü basım yatağını alçalttıktan sonra yazıcıyı yeniden kalibre etmeniz ve seviyelemeniz gerekir.
+
 Nozul Tıkandı
 ==============
 
