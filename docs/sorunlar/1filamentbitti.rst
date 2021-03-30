@@ -4,8 +4,7 @@ katman switchlerinden alın
 
 .. warning::
 
-   You may need to change the ``4`` number in ``dl:nth-child(4)`` for a different one in case your project has more sections in the versions menu.
-   For example, if your project has translations into different languages, you will need to use the number ``5`` there.
+   Bu sayfa hala ``düzenlenmektedir`` eğer ``saçma`` şeyler görürseniz lütfen önemsemeyin.
 
 Alın.
 
