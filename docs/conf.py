@@ -74,5 +74,8 @@ html_theme_options = {
     'titles_only': False
 }
 
+html_css_files = [
+    'css/custom.css',
+]
 def setup(app):
     app.add_css_file('custom.css')
