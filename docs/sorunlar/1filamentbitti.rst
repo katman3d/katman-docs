@@ -32,7 +32,8 @@ Nozul tablaya çok yakın
 .. image:: images/nozulyakin.jpg
    :alt: Katman
 
-   Sorun nedir?
+   
+Sorun nedir?
 ----------------- 
 Açıklanmaz bir şekilde, filamenti doldurmuş olmaya ve basım başının sıkıntısız hareket etmesine rağmen basım yatağında hiç filament birikmiyor.
 
