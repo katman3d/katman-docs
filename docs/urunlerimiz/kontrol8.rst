@@ -5,7 +5,7 @@ Katman Kontrol8
    :glob:
    :maxdepth: 4
 
-.. image:: gorseller/kontrol8yan.jpg
+.. image:: gorseller/kontrol8yan.png
    :alt: Kontrol8
 
 Yerli üretim Katman Kontrol Kartı ile hobi için yapacağınız makinalara hayat verebilirsiniz. 
