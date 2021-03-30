@@ -79,4 +79,4 @@ html_css_files = [
     '_static/css/custom.css',
 ]
 def setup(app):
-    app.add_css_file('custom.css')
+    app.add_css_file('_static/css/custom.css')
