@@ -205,6 +205,9 @@ Her durumda; yarısı bitmiş modelinizin üstünde bir filament spagettisi, tü
 
 Baskı tabanı genişliyor
 =========================
+.. image:: images/tablayayapismiyor.jpg
+   :alt: Katman
+   
 🤨 Sorun nedir?
 ----------------- 
  Model tabanında dışarı doğru şişkinlik varsa burada “elephant foot” olarak da adlandırılan bir etki vardır.
