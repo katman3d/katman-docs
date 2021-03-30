@@ -74,6 +74,8 @@ html_theme_options = {
     'titles_only': False
 }
 
+html_style = 'css/yourtheme.css'
+
 html_css_files = [
     'css/custom.css',
 ]
