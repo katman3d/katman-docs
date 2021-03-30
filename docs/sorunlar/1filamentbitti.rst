@@ -2,11 +2,6 @@ Merhaba!
 =====================
 katman switchlerinden alın 
 
-
-.. toctree::
-   :glob:
-   :maxdepth: 4
-
 Filament Bitti
 ====================
 .. image:: images/filamentbitti.jpg
