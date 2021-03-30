@@ -51,38 +51,119 @@ Bunun yanı sıra yazıcınız müsaade ediyorsa aynı etkiyi basım yatağını
 
 Nozul Tıkandı
 ==============
+.. image:: images/nozzletikandi.jpg
+   :alt: Katman
+🤨 Sorun nedir?
+----------------- 
 
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
 
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 Filament ezilmesi
 ==================
+.. image:: images/nozzletıkandi.jpg
+   :alt: Katman
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 
 Baskı sırasında filament gelmiyor
 ==================================
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 
 Baskı tablaya yapışmıyor
 ==========================
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 
 Baskı tabanı genişliyor
 =========================
+🤨 Sorun nedir?
+----------------- 
 
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 Baskı köşeleri kalkıyor
 ========================
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 
 İç dolgu ile duvarlar arasında boşluklar
 ========================================
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
 
 
 
 Katmanlar kayıyor
 ===================
+🤨 Sorun nedir?
+----------------- 
+
+🧐 Bu sorun neden kaynaklanır?
+-------------------------------
+
+✅ Çözüm önerisi
+--------------
+ •
+ •
