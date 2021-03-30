@@ -14,13 +14,13 @@ Filament Bitti
 
 🤨 Sorun nedir?
 ----------------- 
-Dilimleme yazılımında model belirlenmesine ve doğru şekilde yapılandırılmasına rağmen hiçbir şey basılmıyor. Ne kadar baskı dosyasını yazıcıya defalarca göndermeyi deniyor olsan da baskı ucundan garip bir parça çıkması dışında hiçbir şey gerçekleşmiyor ya da diğer türlü, baskının yarısı tamamlandıktan sonra filament ekstrüzyonu duruyor ama basım ucu modelin içine hava üflemeye devam ediyor.
+ Dilimleme yazılımında model belirlenmesine ve doğru şekilde yapılandırılmasına rağmen hiçbir şey basılmıyor. Ne kadar baskı dosyasını yazıcıya defalarca göndermeyi deniyor olsan da baskı ucundan garip bir parça çıkması dışında hiçbir şey gerçekleşmiyor ya da diğer türlü, baskının yarısı tamamlandıktan sonra filament ekstrüzyonu duruyor ama basım ucu modelin içine hava üflemeye devam ediyor.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-PRUSA i3 gibi birçok yazıcıda filament makarası tamamen göründüğünden kaçırılması olanaksız bir sorundur ama XYZ DaVinci, Cel Robox ve Ultimaker serilerinde bu  her zaman görünür değildir. Bunlar ve birçok diğer yazıcı, filamenti yazıcı gövdesinin içinde tümden kapalı bulunduruyor ya da arkada tutuyor. Bazı yazıcılar elbette akıllı makaralara sahiptir ve bunlar, yazılıma geri dönüt sağlayarak makaradaki materyalin bitmek üzere olduğunu ya da tükendiğini gösterebiliyor.
+ PRUSA i3 gibi birçok yazıcıda filament makarası tamamen göründüğünden kaçırılması olanaksız bir sorundur ama XYZ DaVinci, Cel Robox ve Ultimaker serilerinde bu  her zaman görünür değildir. Bunlar ve birçok diğer yazıcı, filamenti yazıcı gövdesinin içinde tümden kapalı bulunduruyor ya da arkada tutuyor. Bazı yazıcılar elbette akıllı makaralara sahiptir ve bunlar, yazılıma geri dönüt sağlayarak makaradaki materyalin bitmek üzere olduğunu ya da tükendiğini gösterebiliyor.
 
-Neyse ki hepimiz bir şeyleri kurcalamayı, üzerinde oynanmış veyahut üçüncü kaynaktan gelen yazılımlar kullanmayı seviyoruz. Her durumda, özellikle Bowden tipi ekstrüzyon sistemlerinde, kalmış bir miktar materyali çıkarıp ardından taze filamenti yerleştirmeniz gerekir.
+ Neyse ki hepimiz bir şeyleri kurcalamayı, üzerinde oynanmış veyahut üçüncü kaynaktan gelen yazılımlar kullanmayı seviyoruz. Her durumda, özellikle Bowden tipi ekstrüzyon sistemlerinde, kalmış bir miktar materyali çıkarıp ardından taze filamenti yerleştirmeniz gerekir.
 
 ✅ Çözüm önerisi
 --------------
@@ -35,11 +35,11 @@ Nozul tablaya çok yakın
    
 🤨 Sorun nedir?
 ----------------- 
-Açıklanmaz bir şekilde, filamenti doldurmuş olmaya ve basım başının sıkıntısız hareket etmesine rağmen basım yatağında hiç filament birikmiyor.
+ Açıklanmaz bir şekilde, filamenti doldurmuş olmaya ve basım başının sıkıntısız hareket etmesine rağmen basım yatağında hiç filament birikmiyor.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-Sorun, gayet basit bir şekilde oluşabilir: basım ucunuz basım yatağına çok yakındır. Eğer olur da basım yatağınızı uçtan sadece birkaç mikron yukarı yerleştirdiyseniz erimiş filamentin dışarı çıkması olanaksız hâle gelir. Bunun sonucunda olacak en iyi şey, baskınızın ilk katlarının hiç basılmaması ve daha sonraki katların yapışmama olasılığının artmasıdır. En kötüsü ise erimiş filamentin basım ucunuzda birikmesi, dolayısıyla ucun tamamen tıkanması olabilir.
+ Sorun, gayet basit bir şekilde oluşabilir: basım ucunuz basım yatağına çok yakındır. Eğer olur da basım yatağınızı uçtan sadece birkaç mikron yukarı yerleştirdiyseniz erimiş filamentin dışarı çıkması olanaksız hâle gelir. Bunun sonucunda olacak en iyi şey, baskınızın ilk katlarının hiç basılmaması ve daha sonraki katların yapışmama olasılığının artmasıdır. En kötüsü ise erimiş filamentin basım ucunuzda birikmesi, dolayısıyla ucun tamamen tıkanması olabilir.
 
 ✅ Çözüm önerisi
 --------------
@@ -55,19 +55,19 @@ Nozul Tıkandı
    :alt: Katman
 🤨 Sorun nedir?
 ----------------- 
-Bir baskı işi başlatıyorsunuz ama ne denerseniz deneyin baskı ucundan bir şey çıkmamaktadır. Filamenti çıkarıp yeniden takmak da işe yaramıyor.
+ Bir baskı işi başlatıyorsunuz ama ne denerseniz deneyin baskı ucundan bir şey çıkmamaktadır. Filamenti çıkarıp yeniden takmak da işe yaramıyor.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-Baskı ucunun arkasında kalmış küçük bir parça filament, çoğunlukla makaraları değiştirirken  filamentin kırılması sonucu içeride kalmış olabilir. Yeni filament takıldığında ise baskı ucunun içinde kalan eski bir parça filament yeni takılı filamentin uçtan çıkmasına izin vermemektedir.
+ Baskı ucunun arkasında kalmış küçük bir parça filament, çoğunlukla makaraları değiştirirken  filamentin kırılması sonucu içeride kalmış olabilir. Yeni filament takıldığında ise baskı ucunun içinde kalan eski bir parça filament yeni takılı filamentin uçtan çıkmasına izin vermemektedir.
 
-Yapılacak küçük bir yazıcı onarımı, ekstrüzyonu etkileyen tıkanma sorunlarını engelleme konusunda epey faydalı olur. Hatta siz çoğunlukla tıkanma ortaya çıkmadan önce baskı ucunun içinde kalan eski, kömürleşmiş filamentin bulunduğunu fark edeceksiniz. O parça orada haftalarca hatta aylarca kalabilir ve siz bunu fark etmeyebilirsiniz ama baskılarınızın kalitesinde fazla olmasa da azalma fark edebileceksiniz.
+ Yapılacak küçük bir yazıcı onarımı, ekstrüzyonu etkileyen tıkanma sorunlarını engelleme konusunda epey faydalı olur. Hatta siz çoğunlukla tıkanma ortaya çıkmadan önce baskı ucunun içinde kalan eski, kömürleşmiş filamentin bulunduğunu fark edeceksiniz. O parça orada haftalarca hatta aylarca kalabilir ve siz bunu fark etmeyebilirsiniz ama baskılarınızın kalitesinde fazla olmasa da azalma fark edebileceksiniz.
 
-İçeri kaçmış eski filamentin oluşturduğu etkiler çoğunlukla gözden kaçırılmaktadır. Bunlardan bazıları; baskının dış duvarlarında oluşan küçük çizikler, koyu filamentin oluşturduğu küçük noktasal şekiller ve modeller arasında az görünen kalite farkıdır.“Atomic Pull” ya da “Cold Pull” olarak bilinen ve daha sonra bahsedeceğimiz yöntemler eski filamenti temizleyebilirsiniz.
+ İçeri kaçmış eski filamentin oluşturduğu etkiler çoğunlukla gözden kaçırılmaktadır. Bunlardan bazıları; baskının dış duvarlarında oluşan küçük çizikler, koyu filamentin oluşturduğu küçük noktasal şekiller ve modeller arasında az görünen kalite farkıdır.“Atomic Pull” ya da “Cold Pull” olarak bilinen ve daha sonra bahsedeceğimiz yöntemler eski filamenti temizleyebilirsiniz.
 
-Örneğin, oluşan bu durumu PLA’dan ABS’ye geçerken sıklıkla fark edeceksiniz. Az miktarda PLA uçta kalmıştır ve normal erime noktasından daha yüksek sıcaklıklara ısıtılmıştır. Bu da kalan bir filament parçasının kömürleşip yanabileceğini gösterir.
+ Örneğin, oluşan bu durumu PLA’dan ABS’ye geçerken sıklıkla fark edeceksiniz. Az miktarda PLA uçta kalmıştır ve normal erime noktasından daha yüksek sıcaklıklara ısıtılmıştır. Bu da kalan bir filament parçasının kömürleşip yanabileceğini gösterir.
 
-Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıklık edersiniz. Yeni filament içeri alındığında az miktarda dumanın çıkmasını seyretmek olağanüstü değildir.
+ Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıklık edersiniz. Yeni filament içeri alındığında az miktarda dumanın çıkmasını seyretmek olağanüstü değildir.
 
 ✅ Çözüm önerisi
 --------------
@@ -101,11 +101,11 @@ Filament ezilmesi
 
 🤨 Sorun nedir?
 ----------------- 
-Filamentin ezilmesi yahut yalama yapması, baskı işleminin herhangi bir anında ve her filamentle gerçekleşebilir. Bunun sonucunda filament sıcak uçtan hiç püskürtülmez ve baskınız aniden sonlanır.
+ Filamentin ezilmesi yahut yalama yapması, baskı işleminin herhangi bir anında ve her filamentle gerçekleşebilir. Bunun sonucunda filament sıcak uçtan hiç püskürtülmez ve baskınız aniden sonlanır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-Tıkanma, gergi grubunun(idler tensioner) gevşek olması, hatalı sıcak uç sıcaklığı; bütün bunlar yaygın sebeplerden sadece birkaçıdır ancak bunların düzeltilmesi çoğunlukla kolaydır. Sorunun sonucunda ekstruderdaki dişli çark, filamenti yazıcının içinden çekemez ya da itemez hâle gelir. Motor döndükçe çarkın üzerindeki küçük dişlerin normalde filamenti yakalaması ve sisteme beslemesi gerekirken bunlar aşınır ve hiç tutunma olmaz, bundan dolayı hem filament hem de çarklar tutanamaz ve birbirlerinin üstünden kayarlar.
+ Tıkanma, gergi grubunun(idler tensioner) gevşek olması, hatalı sıcak uç sıcaklığı; bütün bunlar yaygın sebeplerden sadece birkaçıdır ancak bunların düzeltilmesi çoğunlukla kolaydır. Sorunun sonucunda ekstruderdaki dişli çark, filamenti yazıcının içinden çekemez ya da itemez hâle gelir. Motor döndükçe çarkın üzerindeki küçük dişlerin normalde filamenti yakalaması ve sisteme beslemesi gerekirken bunlar aşınır ve hiç tutunma olmaz, bundan dolayı hem filament hem de çarklar tutanamaz ve birbirlerinin üstünden kayarlar.
 
 ✅ Çözüm önerisi
 --------------
@@ -129,13 +129,13 @@ Baskı sırasında filament gelmiyor
 
 🤨 Sorun nedir?
 ----------------- 
-Bazen, çok sayıda sebepten kaynaklanabilmekle birlikte, sıcak uç filamenti püskürtmeyi bırakır.
+ Bazen, çok sayıda sebepten kaynaklanabilmekle birlikte, sıcak uç filamenti püskürtmeyi bırakır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-Tipik olarak bu 3D sorunu, baskı işleminin iki kısmına dayandırılabilir: ya filament ikmaliyle alakalı bir sorun vardır ya sıcak uç / baskı ucunda bir sıkıntı vardır. Sorunun sebebi, filament bitmesi kadar basit bir olay olabilir. Bazı yazıcılar makarayı gizler, filamentin bittiğini nereden bilesiniz?
+ Tipik olarak bu 3D sorunu, baskı işleminin iki kısmına dayandırılabilir: ya filament ikmaliyle alakalı bir sorun vardır ya sıcak uç / baskı ucunda bir sıkıntı vardır. Sorunun sebebi, filament bitmesi kadar basit bir olay olabilir. Bazı yazıcılar makarayı gizler, filamentin bittiğini nereden bilesiniz?
 
-Veyahut gergi grubu, ekstruder için çok sıkı olabilir; bu da filamentin ezilmesine, dolayısıyla filamentin sıcak uca ilerlememesine yol açabilir. Buna alternatif olarak  sıcak ucunuzda bir tıkanıklık olması mümkündür, bu da filamentin püskürtülmesini engeller.
+ Veyahut gergi grubu, ekstruder için çok sıkı olabilir; bu da filamentin ezilmesine, dolayısıyla filamentin sıcak uca ilerlememesine yol açabilir. Buna alternatif olarak  sıcak ucunuzda bir tıkanıklık olması mümkündür, bu da filamentin püskürtülmesini engeller.
 
 
 ✅ Çözüm önerisi
@@ -161,19 +161,19 @@ Baskı tablaya yapışmıyor
 🤨 Sorun nedir?
 ----------------- 
 
-Baskının, basım yatağına yapışamaması sebebiyle kaybedilmesi yaygın bir sorundur ve çözülmesi nispeten kolaydır. Ne yazık ki 3D baskı herhangi bir anda serbest kalabilir. Bu durum daha ilk katmanda ya da aksine en son katmanda gerçekleşebilir, en sonda gerçekleşmesiyse özellikle sinir bozucudur.
+ Baskının, basım yatağına yapışamaması sebebiyle kaybedilmesi yaygın bir sorundur ve çözülmesi nispeten kolaydır. Ne yazık ki 3D baskı herhangi bir anda serbest kalabilir. Bu durum daha ilk katmanda ya da aksine en son katmanda gerçekleşebilir, en sonda gerçekleşmesiyse özellikle sinir bozucudur.
 
-Bu her zaman yazıcının suçu değildir ve eğer siz, basım yatağıyla temas yüzeyi düşük bir modeli basmayı denediyseniz sorun yüksek ihtimalle bu yüzdendir. Şöyle düşünün: Bir uçağın 3D baskısını yapmayı çalıştınız ancak basım yatağıyla tek temas yüzeyi iniş takımlarıdır. Bundan dolayı baskınızın bir raft veya kenarlık (brim) olmadan düzgün basılma ihtimali pek düşük olacaktır, burada desteklerden (support) bahsetmiyoruz bile. Şansımıza bu durum çok yaygın olduğundan onu kolayca düzeltme yolları da fazladır.
+ Bu her zaman yazıcının suçu değildir ve eğer siz, basım yatağıyla temas yüzeyi düşük bir modeli basmayı denediyseniz sorun yüksek ihtimalle bu yüzdendir. Şöyle düşünün: Bir uçağın 3D baskısını yapmayı çalıştınız ancak basım yatağıyla tek temas yüzeyi iniş takımlarıdır. Bundan dolayı baskınızın bir raft veya kenarlık (brim) olmadan düzgün basılma ihtimali pek düşük olacaktır, burada desteklerden (support) bahsetmiyoruz bile. Şansımıza bu durum çok yaygın olduğundan onu kolayca düzeltme yolları da fazladır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-Bu sorunun en yaygın sebebi, baskının yüzeye ya da basım platformuna tutunamamasıdır. Filamentin tutunması için pürüzlü bir tabana oturması gereklidir, bu sebeple daha iyi bir yapışma yüzeyi yaratmanıza ihtiyaç olacaktır.
+ Bu sorunun en yaygın sebebi, baskının yüzeye ya da basım platformuna tutunamamasıdır. Filamentin tutunması için pürüzlü bir tabana oturması gereklidir, bu sebeple daha iyi bir yapışma yüzeyi yaratmanıza ihtiyaç olacaktır.
 
-Düz olmayan bir basım platformu, diğer bir önemli sorun olabilir. Platform, baskının herhangi bir bölümünde düzgün olmamışsa baskı ucu, düzgün ekstrüzyon ve yapışma sağlayamayacak kadar platforma uzak kalabilir.
+ Düz olmayan bir basım platformu, diğer bir önemli sorun olabilir. Platform, baskının herhangi bir bölümünde düzgün olmamışsa baskı ucu, düzgün ekstrüzyon ve yapışma sağlayamayacak kadar platforma uzak kalabilir.
 
-Kalibrasyon da önemli sorunlardan biri olabilir, zamanla platform ve baskı ucu arasındaki mesafe gitgide artabilir ve en sonunda baş katman platformun içine itilmek yerine rastgele sürüklenmeye başlar.
+ Kalibrasyon da önemli sorunlardan biri olabilir, zamanla platform ve baskı ucu arasındaki mesafe gitgide artabilir ve en sonunda baş katman platformun içine itilmek yerine rastgele sürüklenmeye başlar.
 
-Her durumda; yarısı bitmiş modelinizin üstünde bir filament spagettisi, tüm modelinizin bir spagetti hâline geldiğini ya da modelinizin her bir parçasının platformun üstünde rastgele basılmış olduğunu görmeniz olasıdır.
+ Her durumda; yarısı bitmiş modelinizin üstünde bir filament spagettisi, tüm modelinizin bir spagetti hâline geldiğini ya da modelinizin her bir parçasının platformun üstünde rastgele basılmış olduğunu görmeniz olasıdır.
 
 ✅ Çözüm önerisi
 --------------
@@ -207,7 +207,7 @@ Baskı tabanı genişliyor
 =========================
 .. image:: images/tablayayapismiyor.jpg
    :alt: Katman
-   
+
 🤨 Sorun nedir?
 ----------------- 
  Model tabanında dışarı doğru şişkinlik varsa burada “elephant foot” olarak da adlandırılan bir etki vardır.
@@ -217,15 +217,15 @@ Baskı tabanı genişliyor
  Bu sorun ilk katmanlar tamamen soğutulup katı hale geçmeden önce modelin ağırlığının aşağı doğru baskı yapmasıyla oluşur. Genellikle yazıcınızın ısıtmalı tablası varsa görülür.
 ✅ Çözüm önerisi
 --------------
-•XY kompanzasyon ayarını açın;
+ •XY kompanzasyon ayarını açın;
 
  Bazı dilimleyicilerde bu ayar bulunmaktadır.
-•Tabla Sıcaklığını ve Soğutmayı Ayarlayın;
+ •Tabla Sıcaklığını ve Soğutmayı Ayarlayın;
 
  3D Baskılarınızda elephant foot görülmesini engellemek için ilk katmanların iyi bir şekilde soğutulması gerekmektedir. Böylece üzerindeki kısımları iyi bir şekilde destekler.
  
  Çok fazla soğutmanın uygulanmasında ise ilk katmanlarda bükülme görülebilir. Dengeyi doğru şekilde sağlamak zor olabilir, bu yüzden baskı platformunun sıcaklığını beşer derece düşürerek başlayın. (Maksimum +/- 20 derece)
-•Baskı Platformunu Kalibre Edin;
+ •Baskı Platformunu Kalibre Edin;
 
  Baskı hatalarının büyük bir bölümünün sebebi baskı platformunun kalibrasyonundan kaynaklanır. Her yazıcının farklı şekilde kalibrasyon sistemi vardır. Üreticinin tavsiye ettiği kalibrasyon işlemiyle yazıcınızı kalibre edin.
 
@@ -235,7 +235,7 @@ Baskı köşeleri kalkıyor
 ========================
 🤨 Sorun nedir?
 ----------------- 
-
+ Modelinizin ilk katmanlarında baskı yukarı doğru bükülebilir. Ayrıca bu üst tarafta yatay çatlaklara ve baskınızın yataktan kopmasına sebep olabilir.
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
 
