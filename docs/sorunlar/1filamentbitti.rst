@@ -157,7 +157,7 @@ Baskı tablaya yapışmıyor
 ==========================
 .. image:: images/tablayayapismiyor.jpg
    :alt: Katman
-   
+
 🤨 Sorun nedir?
 ----------------- 
 
@@ -207,15 +207,26 @@ Baskı tabanı genişliyor
 =========================
 🤨 Sorun nedir?
 ----------------- 
+ Model tabanında dışarı doğru şişkinlik varsa burada “elephant foot” olarak da adlandırılan bir etki vardır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
-
+ Bu sorun ilk katmanlar tamamen soğutulup katı hale geçmeden önce modelin ağırlığının aşağı doğru baskı yapmasıyla oluşur. Genellikle yazıcınızın ısıtmalı tablası varsa görülür.
 ✅ Çözüm önerisi
 --------------
- •
- •
+•XY kompanzasyon ayarını açın;
 
+ Bazı dilimleyicilerde bu ayar bulunmaktadır.
+•Tabla Sıcaklığını ve Soğutmayı Ayarlayın;
+
+ 3D Baskılarınızda elephant foot görülmesini engellemek için ilk katmanların iyi bir şekilde soğutulması gerekmektedir. Böylece üzerindeki kısımları iyi bir şekilde destekler.
+ 
+ Çok fazla soğutmanın uygulanmasında ise ilk katmanlarda bükülme görülebilir. Dengeyi doğru şekilde sağlamak zor olabilir, bu yüzden baskı platformunun sıcaklığını beşer derece düşürerek başlayın. (Maksimum +/- 20 derece)
+•Baskı Platformunu Kalibre Edin;
+
+ Baskı hatalarının büyük bir bölümünün sebebi baskı platformunun kalibrasyonundan kaynaklanır. Her yazıcının farklı şekilde kalibrasyon sistemi vardır. Üreticinin tavsiye ettiği kalibrasyon işlemiyle yazıcınızı kalibre edin.
+
+ Bir kalibrasyon küpü basmayı deneyin. Küpün basılışından baskı platformunun kalibre edilip edilmediğini kolayca görebilirsiniz.
 
 Baskı köşeleri kalkıyor
 ========================
