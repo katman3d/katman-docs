@@ -123,19 +123,35 @@ Tıkanma, gergi grubunun(idler tensioner) gevşek olması, hatalı sıcak uç s�
  Sorun başladığında siz yeni bir filament yerleştirdiyseniz sıcak ucun sıcaklık değerinin doğru olup olmadığını çifte kontrol edin.
 
 Baskı sırasında filament gelmiyor
-==================================
+==================
+.. image:: images/filamentgelmiyor.jpg
+   :alt: Katman
+
 🤨 Sorun nedir?
 ----------------- 
+Bazen, çok sayıda sebepten kaynaklanabilmekle birlikte, sıcak uç filamenti püskürtmeyi bırakır.
 
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
+Tipik olarak bu 3D sorunu, baskı işleminin iki kısmına dayandırılabilir: ya filament ikmaliyle alakalı bir sorun vardır ya sıcak uç / baskı ucunda bir sıkıntı vardır. Sorunun sebebi, filament bitmesi kadar basit bir olay olabilir. Bazı yazıcılar makarayı gizler, filamentin bittiğini nereden bilesiniz?
+
+Veyahut gergi grubu, ekstruder için çok sıkı olabilir; bu da filamentin ezilmesine, dolayısıyla filamentin sıcak uca ilerlememesine yol açabilir. Buna alternatif olarak  sıcak ucunuzda bir tıkanıklık olması mümkündür, bu da filamentin püskürtülmesini engeller.
+
 
 ✅ Çözüm önerisi
 --------------
- •
- •
+•Filamentin Yeterli Olduğundan Emin Olun;
 
+ Biraz bariz bir durum ama hepimizin odaklanmasında ani düşüşler yaşanabilir. Günümüzde çoğu dilimleme (slicing) yazılımı, baskılar için kullanılacak tahmini materyali hesaplar; dolayısıyla yazılımınızın verdiği bu tahmin ve makaranın geriye kalan ağırlığıyla yapacağınız ufak bir karşılaştırma, materyalin yetip yetmeyeceğine dair ipucu verecektir.•Gergi Grubu (Idler tensioner) Gerilmesini Ayarlayın;
+•Baskı Ucu Tıkalı Mı Bakın;
 
+  Eski, yanık filamentle dolmuş  bir baskı ucu çok da farklı sonuçlara yol açmayacaktır. Bunlardan bir tanesi ekstrüzyonun durmuş olmasıdır. Tıkalı baskı uçlarının halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
+•Sıcak Uç Sıcaklığını Kontrol Edin;
+
+ Sorun başladığında siz yeni bir filament yerleştirdiyseniz sıcak ucun sıcaklık değerinin doğru olup olmadığını çifte kontrol edin.
+•Filamentin Kırılıp Kırılmadığına Bakın;
+
+ Bowden tipi ekstrudera sahip çoğu yazıcının boğuştuğu sorun olan kırılan filament, ekstruder ile sıcak uç arasında bir temassızlığa sebep olabilir. Şükürler olsun ki bunun tespiti ve düzeltilmesi kolaydır; yine de böyle bir durumun meydana gelmiş olması, filamentin son kullanma tarihini geçtiğine işaret eder. Kırılan filament sorununun halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
 
 Baskı tablaya yapışmıyor
 ==========================
