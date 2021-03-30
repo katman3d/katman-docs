@@ -154,6 +154,9 @@ Veyahut gergi grubu, ekstruder için çok sıkı olabilir; bu da filamentin ezil
  Bowden tipi ekstrudera sahip çoğu yazıcının boğuştuğu sorun olan kırılan filament, ekstruder ile sıcak uç arasında bir temassızlığa sebep olabilir. Şükürler olsun ki bunun tespiti ve düzeltilmesi kolaydır; yine de böyle bir durumun meydana gelmiş olması, filamentin son kullanma tarihini geçtiğine işaret eder. Kırılan filament sorununun halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
 
 Baskı tablaya yapışmıyor
+.. image:: images/tablayayapismiyor.jpg
+   :alt: Katman
+
 ==========================
 🤨 Sorun nedir?
 ----------------- 
