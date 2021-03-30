@@ -4,7 +4,8 @@
 Katman ürünlerinde hata giderme:
 
 .. toctree::
-   :hidden:
+   :glob:
    :maxdepth: 4
+   :hidden:
 
    sorunlar/*
