@@ -302,6 +302,9 @@ Baskı köşeleri kalkıyor
 
 Katmanlar kayıyor
 ===================
+.. image:: images/katmankayması.jpg
+   :alt: Katman
+
 🤨 Sorun nedir?
 ----------------- 
  Baskı devam ettikçe kalite açısından pek sorun yokmuş gibi duruyor. Biraz daha yakından bakıyorsunuz ve katmanların olması gerektiği gibi hizalanmadığını görüyorsunuz. İçteki destek yapısına bakıyorsunuz ve hizanın biraz kaydığını görüyorsunuz. Dış duvar, düzgün gözükmek yerine küçük uyumsuzluklara sahip ve düzensiz ön yüz izlenimi oluşturuyor. Yüksek olasılıkla sorun, baskının yalnızca bir doğrultusunda oluşuyor; örneğin sağ-sol ya da ileri-geri.
