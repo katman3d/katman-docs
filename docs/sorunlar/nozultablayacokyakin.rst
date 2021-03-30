@@ -1,4 +1,4 @@
-Katman Limit Anahtarı
+Nozul tablaya çok yakın
 =====================
 
 .. toctree::

@@ -1,4 +1,4 @@
-Katman Limit Anahtarı
+Baskı tablaya yapışmıyor
 =====================
 
 .. toctree::

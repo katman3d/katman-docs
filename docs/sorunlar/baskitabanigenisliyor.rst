@@ -1,4 +1,4 @@
-Katman Limit Anahtarı
+Baskı tabanı olması gerekenden geniş
 =====================
 
 .. toctree::
