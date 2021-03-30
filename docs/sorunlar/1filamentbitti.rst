@@ -56,6 +56,7 @@ Nozul Tıkandı
 🤨 Sorun nedir?
 ----------------- 
 Bir baskı işi başlatıyorsunuz ama ne denerseniz deneyin baskı ucundan bir şey çıkmamaktadır. Filamenti çıkarıp yeniden takmak da işe yaramıyor.
+
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
 Baskı ucunun arkasında kalmış küçük bir parça filament, çoğunlukla makaraları değiştirirken  filamentin kırılması sonucu içeride kalmış olabilir. Yeni filament takıldığında ise baskı ucunun içinde kalan eski bir parça filament yeni takılı filamentin uçtan çıkmasına izin vermemektedir.
@@ -67,6 +68,7 @@ Yapılacak küçük bir yazıcı onarımı, ekstrüzyonu etkileyen tıkanma soru
 Örneğin, oluşan bu durumu PLA’dan ABS’ye geçerken sıklıkla fark edeceksiniz. Az miktarda PLA uçta kalmıştır ve normal erime noktasından daha yüksek sıcaklıklara ısıtılmıştır. Bu da kalan bir filament parçasının kömürleşip yanabileceğini gösterir.
 
 Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıklık edersiniz. Yeni filament içeri alındığında az miktarda dumanın çıkmasını seyretmek olağanüstü değildir.
+
 ✅ Çözüm önerisi
 --------------
  •Tıkanıklığı İğneyle Giderin;
