@@ -55,14 +55,41 @@ Nozul Tıkandı
    :alt: Katman
 🤨 Sorun nedir?
 ----------------- 
-
+Bir baskı işi başlatıyorsunuz ama ne denerseniz deneyin baskı ucundan bir şey çıkmamaktadır. Filamenti çıkarıp yeniden takmak da işe yaramıyor.
 🧐 Bu sorun neden kaynaklanır?
 -------------------------------
+Baskı ucunun arkasında kalmış küçük bir parça filament, çoğunlukla makaraları değiştirirken  filamentin kırılması sonucu içeride kalmış olabilir. Yeni filament takıldığında ise baskı ucunun içinde kalan eski bir parça filament yeni takılı filamentin uçtan çıkmasına izin vermemektedir.
 
+Yapılacak küçük bir yazıcı onarımı, ekstrüzyonu etkileyen tıkanma sorunlarını engelleme konusunda epey faydalı olur. Hatta siz çoğunlukla tıkanma ortaya çıkmadan önce baskı ucunun içinde kalan eski, kömürleşmiş filamentin bulunduğunu fark edeceksiniz. O parça orada haftalarca hatta aylarca kalabilir ve siz bunu fark etmeyebilirsiniz ama baskılarınızın kalitesinde fazla olmasa da azalma fark edebileceksiniz.
+
+İçeri kaçmış eski filamentin oluşturduğu etkiler çoğunlukla gözden kaçırılmaktadır. Bunlardan bazıları; baskının dış duvarlarında oluşan küçük çizikler, koyu filamentin oluşturduğu küçük noktasal şekiller ve modeller arasında az görünen kalite farkıdır.“Atomic Pull” ya da “Cold Pull” olarak bilinen ve daha sonra bahsedeceğimiz yöntemler eski filamenti temizleyebilirsiniz.
+
+Örneğin, oluşan bu durumu PLA’dan ABS’ye geçerken sıklıkla fark edeceksiniz. Az miktarda PLA uçta kalmıştır ve normal erime noktasından daha yüksek sıcaklıklara ısıtılmıştır. Bu da kalan bir filament parçasının kömürleşip yanabileceğini gösterir.
+
+Aynı şekilde, ABS’den Nylon’a geçtiğinizde buna benzer bir şeye tanıklık edersiniz. Yeni filament içeri alındığında az miktarda dumanın çıkmasını seyretmek olağanüstü değildir.
 ✅ Çözüm önerisi
 --------------
- •
- •
+ •Tıkanıklığı İğneyle Giderin;
+Şansınız varsa tıkanıklık giderme kolay ve hızlı bir işlem olabilir. Filamenti dışarı çıkarmayla başlayın. Bundan sonraysa 3D yazıcınızın kontrol panelini kullanın (eğer varsa) ve “baskı ucunu ısıt” (heat up nozzle) seçeneğini işaretleyin. Sıcaklığı sıkışan filamentin erime sıcaklığı olarak belirleyin. Alternatif olarak, yazıcınızı bilgisayar uyumlu bir kontrol yazılımıyla (örneğin Lulzbot’u ve onun yan programı olan Cura’yı) kullanın ve baskı ucunu o şekilde ısıtın. PLA için sıcaklığı 220℃ olarak belirleyin. Baskı ucu doğru sıcaklığa ulaştığında deliği temizlemek için küçük bir iğne kullanın. Parmaklarınızı yakmamaya özen gösterin. Baskı ucunuz 0.4 mm açıklığında ve daha darsa hava fırçası temizleme kitleri mükemmel bir şekilde işinize yarayacaktır.
+ •Eski Filamenti İtin;
+Eğer püskürtme ucunun hâlen tıkanık olduğuna şahitlik ediyorsanız sıkışmış filament parçasını başka bir filament kullanarak dışarı çıkarmayı deneyebilirsiniz. Daha önce yaptığınız gibi filamenti çıkarmayı deneyin ve ardından besleme tüpünü basım başından ayırın. Baskı ucunu PLA için 220℃ sıcaklığa çıkarın ve diğer bir filament parçasını kullanarak yukarıdan aşağıya doğru eski filamenti zorlayın. Yeni filament, eskisini çıkarmayı başaramadıysa yalnızca elinizle yapabileceğiniz ek basınç yararlı olabilir. Yine de yazıcıyı çok zorlamamaya özen gösterin çünkü yatay yazıcı çubuklarını bükebilirsiniz.
+
+Baskı ucu temizlendiğinde iğneyi, filamentten kalan parçaları temizlemek için tekrar uca yerleştirin ve birkaç defa sokup çıkarın.
+ •Sıcak Ucu Parçalayın ve Tekrar Toplayın;
+Ucun hâlen tıkalı kaldığı fevkalade durumlarda küçük bir ameliyat gerçekleştirmeniz ve sıcak ucu parçalamanız gerekecek. Bunu daha önce yapmadıysanız notlar almak ve ucun fotoğraflarını çeşitli açılardan çekmek, ucu yeniden toplayacağınız zaman her şeyi doğru yaptığınızdan emin olmanıza yardımcı olacaktır. Öncelikle filamenti çıkarmakla başlayın, daha sonra yazıcınızın kullanım kılavuzundan sıcak ucu parçalara nasıl ayırabileceğinizi inceleyin.
+ •Atomic Pull Yöntemi;
+ **Materyal seçin**
+Bunun için ABS ya da Nylon kullanabilirsiniz ama en iyi sonuçların yüksek erime noktası dolayısıyla Nylon’la alındığını gördük. Nylon filament, fiziksel yapısını çok daha iyi korumaktadır. Ama ABS daha yaygın olduğundan açıklamamızda ondan bahsedeceğiz. Ayrıca temizleme filamenti de kullanabilirsiniz. •Sıcak Ucu Parçalayın ve Tekrar Toplayın;
+ **Filamenti Kaldırın**
+ Zaten basım başında olan filament parçasını normal bir şekilde kaldırmakla başlayın. Bundan sonraysa Bowden borusunu çıkarın ya da direct drive kullanıyorsanız çarkı serbest bırakın ki zamanı geldiğinde filamenti elinizle itebilesiniz.
+ **Püskürtme Ucu Sıcaklığını Arttırın**
+ Baskı ucu (nozzle) sıcaklığını 240℃’a çıkarın. Biz ABS kullanıyoruz ancak Nylon kullanmayı tercih ettiyseniz filamentinizin kutusunun üzerinde tavsiye edilen sıcaklık değerini kullanın. Yazıcıyı, filamenti itmeye kalkışmadan bu sıcaklıkta 5 dakikalığına bırakın.
+ **Filamenti İtin**
+ Filament püskürtme ucundan dışarı çıkana kadar yavaşça baskı uygulayın. Sonrasında filamenti püskürtme ucundan düzgün bir akış elde edene  kadar yavaşça geriye çekip ileriye itmekle işleme devam edin.
+ **Püskürtme Ucunun Sıcaklığını Düşürün**
+ Baskı ucu sıcaklığını ABS için 180℃ değerine, Nylon içinse 140℃’a düşürün. (Filamentiniz için bir miktar deneme yapmanız gerekecek.) Yazıcıyı bu sıcaklıkta aynı şekilde, tekrar 5 dakikalığına bırakın.
+ **Filamenti Çıkarın**
+ Filamenti basım başından çıkarın. Ucun içine baktığınızda siyah, kömürleşmiş materyali görmeniz gerekiyor. İşleme temizlik sağlanana kadar devam edin. Filament baskı ucundan çıkmazsa ucun sıcaklığını biraz daha yükseltin.
 
 Filament ezilmesi
 ==================
