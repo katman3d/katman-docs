@@ -19,7 +19,7 @@ Hoşgeldiniz
 
 
 Katman [*]_, üç boyutlu yazıcılar ve onların elektroniğini yerli olarak üretmektedir. 
-Makinelerimizdeki elektronik bileşenler kendi üretimimizdir. 
+Katman ürünleri en ince detayına kadar Bursa'da tasarlanmış ve üretilmiştir. 
 Ürünlerimizi görmek için `tıklayınız <urunler.html>`__.
 
 Daha fazla bilgi almak için: info@katman3d.com
