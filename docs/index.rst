@@ -13,6 +13,7 @@ Hoşgeldiniz
 
    urunler
    sorungiderme
+   iletisim
 
 .. image:: katman.png
    :alt: Katman
