@@ -73,3 +73,6 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+def setup(app):
+    app.add_css_file('custom.css')
