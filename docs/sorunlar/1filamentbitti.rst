@@ -179,17 +179,23 @@ Her durumda; yarısı bitmiş modelinizin üstünde bir filament spagettisi, tü
  Filamentinizin platforma tutunma şansını arttırmanız adına platformun üzerine pürüzlü bir materyal koymanız gerekir. Kullanılan en yaygın çözüm, platformun üstüne, sıcak suyla kolaylıkla yıkanabilen bir yapıştırıcı katmanı eklemektir. PLA için başka bir alternatif, boya maske bandı kullanmaktır. 40°C sıcaklığın üstünde erime noktasına sahip filamentler için şimdilerde, sıcağa biraz daha dayanıklı özel bantlar bulunur.
 •Basım Yatağını Seviyelendirin;
 
-  Eski, yanık filamentle dolmuş  bir baskı ucu çok da farklı sonuçlara yol açmayacaktır. Bunlardan bir tanesi ekstrüzyonun durmuş olmasıdır. Tıkalı baskı uçlarının halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
+ Her yazıcının basım platfromu farklı işlemlerle seviyelendirilir: Örneğin en son çıkan Lulzbot’larda son derece güvenilir bir otomatik seviye sistemi vardır; Ultimaker’larda ise kolay uygulanabilen, el ile ayarlanan bir sistem vardır. Basım yatağı seviyelendirilrmesi için yazıcınızın kullanım kılavuzuna bakın.
 •Baskı Ucunu Ayarlayın;
 
- Sorun başladığında siz yeni bir filament yerleştirdiyseniz sıcak ucun sıcaklık değerinin doğru olup olmadığını çifte kontrol edin.
+ Baskı ucu eğer çok yukarıdaysa filament platforma yapışmaz, çok aşağıdaysa baskı ucu, yapışan filamenti resmen kazımaya başlar. Yazıcınızın ayarlar bölümünde “Z ekseninde kaydırma (offset)” seçeneğini bulmayı ve küçük ayarlamalar yapmayı deneyin – baskı ucunu yükseltmek için pozitif değerler ekleyin ya da alçaltmak için negatif değerler verin.
 •Basım Platformunu Temizleyin;
 
- Bowden tipi ekstrudera sahip çoğu yazıcının boğuştuğu sorun olan kırılan filament, ekstruder ile sıcak uç arasında bir temassızlığa sebep olabilir. Şükürler olsun ki bunun tespiti ve düzeltilmesi kolaydır; yine de böyle bir durumun meydana gelmiş olması, filamentin son kullanma tarihini geçtiğine işaret eder. Kırılan filament sorununun halledilmesi için özel olarak hazırladığımız çözüm önerimizi incelemenizde fayda var.
+ Cam ve benzeri bir malzemenin üzerinde baskı yapıyorsanız ve özellikle yapıştırıcıyı sıkça kullanıyorsanız bunu ara sıra iyice temizlemek iyi bir fikirdir. Parmaklarınızın bıraktığı kir kalıntıları ve yapıştıcının yüzeyde aşırı birikmesi, basım platformunun yapışkanlığını kaybetmesine neden olabilmektedir.
 •Baskı Platformu Adezyonu Uygulayın;
 
- Biraz bariz bir durum ama hepimizin odaklanmasında ani düşüşler yaşanabilir. Günümüzde çoğu dilimleme (slicing) yazılımı, baskılar için kullanılacak tahmini materyali hesaplar; dolayısıyla yazılımınızın verdiği bu tahmin ve makaranın geriye kalan ağırlığıyla yapacağınız ufak bir karşılaştırma, materyalin yetip yetmeyeceğine dair ipucu verecektir.•Gergi Grubu (Idler tensioner) Gerilmesini Ayarlayın;
+ Çoğu model, kenarlık (brim) olmadan iyi basılır ama daha küçük nesneler ve platformla temas yüzeyi çok küçük olan modellerin bir miktar baskı plakası adezyonuna (Build Plate Adhesion) ihtiyacı olacaktır. Bunlar, dilimleme yazılımınızda “Brim” (T. kenarlık) ve “Raft” (T. taban döşek) olarak bulunabilir.
+
+ Kenarlık seçeneği, basım yatağıyla temasın başladığı yüzeyden dışarı çıkarak belirli miktarda tek kat çevresel çizgi oluşturur. Bu seçenek, ikisinden daha az israfa sebep olmaktadır ve bizim deneyimimizle en iyisi de budur,  kenarlığı sıyırmak için bir maket bıçağı kullanmak sizin için sorun oluşturmazsa tabiî.
+
+ Raft seçeneği basmak istediğiniz şeklin, kendisinden biraz daha geniş ve kalın, daha iyi yapışan bir gölgesini oluşturur. Baskınız bundan sonra normal bir şekilde oluşturulur. Raft, ana baskıyla oluşturdukları temas yüzeyinde pürüzlü, hoş olmayan bir yüzey açığa çıkarırlar ve bir kenarlıktan daha fazla malzeme harcarlar. Raftın avantajı ise hiç uğraşmaya gerek kalmadan, kırarak sökülebilme özelliğindedir.
 •Destekler (Support) Ekleyin;
+
+ Baskı platformu adezyonunu sağlamakla birlikte şayet modelinizin karmaşık çıkıntıları ya da sarkan yüzeyleri bulunuyorsa baskının tamamını bir arada tutabilmek amacıyla destekler eklediğinizden emin olun.
 
 
 
