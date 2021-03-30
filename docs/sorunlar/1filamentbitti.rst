@@ -155,10 +155,9 @@ Veyahut gergi grubu, ekstruder için çok sıkı olabilir; bu da filamentin ezil
 
 Baskı tablaya yapışmıyor
 ==========================
-
 .. image:: images/tablayayapismiyor.jpg
    :alt: Katman
-
+   
 🤨 Sorun nedir?
 ----------------- 
 
