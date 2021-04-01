@@ -14,14 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-from distutils.version import LooseVersion
-import os
-
 import sphinx_material
-from recommonmark.transform import AutoStructify
-
-FORCE_CLASSIC = os.environ.get("SPHINX_MATERIAL_FORCE_CLASSIC", False)
-FORCE_CLASSIC = FORCE_CLASSIC in ("1", "true")
 
 # -- Project information -----------------------------------------------------
 
@@ -39,19 +32,7 @@ master_doc = 'index'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    "sphinx.ext.autodoc",
-    "numpydoc",
-    "sphinx.ext.doctest",
-    "sphinx.ext.extlinks",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.todo",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode",
-    "nbsphinx",
-    "recommonmark",
-    "sphinx_markdown_tables",
-    "sphinx_copybutton",
+extensions = ['recommonmark', 'sphinx_rtd_theme'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
