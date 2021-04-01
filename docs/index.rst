@@ -23,6 +23,8 @@ Katman [*]_, üç boyutlu yazıcılar ve onların elektroniğini yerli olarak ü
 Katman ürünleri en ince detayına kadar Bursa'da tasarlanmış ve üretilmiştir. 
 Ürünlerimizi görmek için `tıklayınız <urunler.html>`__.
 
+Topluluğumuza katılın
+
 Daha fazla bilgi almak için: info@katman3d.com
 
 .. [*] Katman, bir Ne-Ka Elektronik markasıdır.
