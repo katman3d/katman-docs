@@ -54,7 +54,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_material'
 html_logo = 'html_logokalite.png'
 html_favicon = 'siteikon.ico'
 
@@ -63,7 +63,7 @@ html_favicon = 'siteikon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['']
 
-html_theme_options = {
+#html_theme_options = {
     'style_nav_header_background': '#007678',
     'logo_only': True,
     # Toc options
