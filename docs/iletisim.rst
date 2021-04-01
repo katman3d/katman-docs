@@ -3,6 +3,7 @@
 Katman, bir Ne-Ka Elektronik markasıdır.
 
 Discord topluluğumuza katılın!
+
 .. raw:: html
 
   <iframe src="https://discord.com/widget?id=827171849251061780&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
